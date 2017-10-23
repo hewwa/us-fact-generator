@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Random Fact Generator</title>
+</head>
+<body>
+<center>
+<br>
+<script type="text/javascript">
+document.write("<br>")
+
+function onClick() {
+function generateRandomFact(first, last) {
+return Math.floor(Math.random() * (last - first + 1)) + first;
+}
+
+randomfactno = generateRandomFact(1, 12)
+
+if (randomfactno == 1) {
+alert("The Founding Fathers penned the first couple of drafts of the Declaration of Independence on hemp paper, since at the time at least 75 percent of all the world’s paper was made from cannabis hemp fiber. The democratic delegates eked out the document’s first and second drafts—completed on June 28th and July 2nd 1776, respectively—on Dutch hemp paper. The final document had a more official air, though, as it was printed on parchment.");
+}
+else if (randomfactno == 2) {
+alert("Months before World War Two culminated in the absolute decimation of Hiroshima, the Japanese found themselves in a bit of a pinch. Making the most of the strong air current across the Pacific Ocean, the Japanese crafted what was likely the first intercontinental weapon system and attached bombs to hydrogen balloons, in what was known as the Fu-Go campaign.Depending on weather conditions, it would take each balloon anywhere from 30 to 60 hours to reach the United States. Researchers estimate that the Japanese said sayonara to around 9,000 bombs—which were approximately 33 feet in diameter— to the United States, with 342 known to have reached the United States. Many of them landed and exploded, with one even killing a whole family in Oregon in 1944. Rumor has it that there may still be dozens – potentially still active – lying around.");
+}
+else if (randomfactno == 3) {
+alert("The Liberty Bell is an iconic American relic. Unfortunately, its tolling hasn’t been heard since George Washington’s Birthday in 1846. The bell, which used to reside in Pennsylvania’s Independence Hall, was erected in August 1752 and was first rung in July 8, 1776, to celebrate the first public reading of the Declaration of Independence.Though no conclusive evidence exists to determine when the bell first cracked (some argue that Liberty split during the Revolutionary War in 1824, others speculate that it happened during the funeral of Chief Justice John Marshall in 1835), it was the cherry tree chopping president’s birthday that cracked the bell beyond repair.");
+}
+else if (randomfactno == 4) {
+alert("The Republican and Democratic Party symbols emerged less from political tact and more in jest and retribution. The Democratic Party’s donkey symbol was adopted in 1828, when, during an election, Andrew Jackson’s opponents called him a jackass. The Republican Party’s elephant symbol was adopted in 1874 after satirical cartoonist Thomas Nast drew an elephant, labeling it “the Republican vote.”");
+}
+else if (randomfactno == 5) {
+alert("Most know that the nation’s first ginger president was a francophile, but they don’t know just how much he embraced the life of leisure. Here’s how much: when president, Jefferson would greet White House guests in his robe and slippers. And while Jefferson didn’t adopt the bisou, he did initiate the custom of shaking hands when meeting people – as opposed to bowing that had been favored by George Washington (who didn’t like physical contact).");
+}
+else if (randomfactno == 6) {
+alert("Aside from being the first President of the United States, George Washington was also quite the booze hound – and manufacturer. Washington was a savvy businessman who owned one of the largest distilleries in 18th century America, and by 1799 alone he was producing 11,000 gallons of whiskey.In 1797 George Washington’s farm manager, a Scot named James Anderson, convinced his employer that producing whiskey made from corn and rye grown on the plantation would be a natural complement to his milling business. Washington erected the 2,250 square foot distillery, making it among the largest whiskey distilleries in early America.Today, the two-story stone distillery is reconstructed and operates seasonally, mashing, fermenting and distilling grain as it was done in the eighteenth century.");
+}
+else if (randomfactno == 7) {
+alert("On September 25, 1820, Salem, NJ held a trial against… tomatoes. The general populace believed that tomatoes were poisonous, so Robert Johnson stepped in to prove them wrong. To do so, he bravely stood before a crowd at the courthouse and consumed a whole basket of the delectable fruit. Not dying after consumption, the trial was promptly dismissed.");
+}
+else if (randomfactno == 8) {
+alert("The first Youtube video was of Jawed Karim talking about elephants.");
+}
+else if (randomfactno == 9) {
+alert(" In 1842, the Society for the Protection of German Immigrants in Texas (or Adelsverein as it was known in German) set its immigration aspirations on the Republic of Texas. The society was first established in Germany, with the ultimate end goal being swapping spurs for lederhosen and cultivating a German state. By 1847, over 5,000 German immigrants had established five settlements across the state. A further 2,000 immigrants had arrived by 1853, but the movement failed due to lack of planning, mistrust and bad business sense.");
+}
+else if (randomfactno == 10) {
+alert("The nation’s 30th Vice President, Charles Gates Dawes, has the distinction of being not only a banker and politician prior to assuming the role of Calvin Coolidge’s VP, but also a hit music composer. He enjoyed playing the piano and composing music, and co-wrote the Melody in A Major (or Dawes Melody) in 1911. Songwriter Carl Sigman added lyrics in 1951, changed the name to It’s All in the Game, and Tommy Edwards later performed it in 1958.The tune topped the charts for six weeks, and has since been covered by Cliff Richard, Nat “King” Cole, Isaac Hayes, Barry Manilow, and other artists. Sadly, Dawes couldn’t hear the fruit of his creative labors; he had been dead for seven years by the time Tommy Edwards first performed the tune.");
+}
+else if (randomfactno == 11) {
+alert("August 26th is International Dog Day.");
+}
+else if (randomfactno == 12) {
+alert("The United States’ current 50 star flag was designed as a school project by 17 year-old Robert G. Heft. Heft received a B- for his efforts, but his teacher said he would reconsider the grade if Congress accepted Heft’s ostensibly mediocre design. In 1959, that’s precisely what happened, and Heft’s design was selected to be the latest iteration of the American flag. His teacher promptly changed the grade to an A.");
+}
+else {
+alert("Javascript Error.");;
+}
+}
+</script>
+<button onclick="onClick()">Generate Random Fact!</button>
+</center>
+</body>
+</html>
